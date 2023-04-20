@@ -1,3 +1,9 @@
+/*
+ * This file is just a static code for the sake of demonstration
+ * The actual stylesheet must be created dynamically with
+ * wp_get_global_stylesheet()
+ */
+
 body {
 	--wp--preset--color--black: #000000;
 	--wp--preset--color--cyan-bluish-gray: #abb8c3;
