@@ -1,5 +1,5 @@
-.alignwide,
-.alignfull {
+body .alignwide,
+body .alignfull {
 	margin-left: calc(50% - 50vw);
 	margin-right: calc(50% - 50vw);
 	max-width: 100vw;
@@ -7,7 +7,7 @@
 }
 
 @media (max-width: 920px) {
-	.alignwide {
+	body .alignwide {
 		margin-left: calc((767px - 920px) / 2);
 		margin-right: calc((767px - 920px) / 2);
 		max-width: 920px;
